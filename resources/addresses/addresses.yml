@@ -39,15 +39,15 @@ post:
     content:
       application/json:
         schema:
-          $ref: "models/address_writable.yml"
+          $ref: "../../shared/resources/addresses/address_editable.yml"
 
       application/x-www-form-urlencoded:
         schema:
-          $ref: "models/address_writable.yml"
+          $ref: "../../shared/resources/addresses/address_editable.yml"
 
       multipart/form-data:
         schema:
-          $ref: "models/address_writable.yml"
+          $ref: "../../shared/resources/addresses/address_editable.yml"
 
   responses:
     "200":

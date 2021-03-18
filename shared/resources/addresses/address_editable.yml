@@ -1,0 +1,4 @@
+type: object
+oneOf:
+  - $ref: "../../models/addresses/address_editable_us.yml"
+  - $ref: "../../models/addresses/address_editable_intl.yml"
