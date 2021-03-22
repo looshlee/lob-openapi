@@ -31,13 +31,8 @@ content:
 
         carrier:
           type: string
-          IS THIS AN ENUM??
           description: >
             The mail carrier used to transport this postcard
-
-        tracking_events:
-          type: array
-          MAKE THIS shared?
 
         thumbnails:
           $ref: "../../../shared/models/thumbnails.yml"
